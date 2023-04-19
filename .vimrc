@@ -147,6 +147,7 @@ set tabstop=4           " How many columns of whitespace a \t is worth
 set shiftwidth=4        " How many columns of whitespace a “level of indentation” is worth
 set expandtab           " Use spaces when tabbing
 set cursorline          " Highlight cursor line underneath the cursor horizontally.
+set nowrap              " Do not wrap lines. Allow long lines to extend as far as the line goes.
 if !has('nvim')
     set termwinsize=12x0    " Set terminal size
 endif
