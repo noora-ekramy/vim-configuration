@@ -68,6 +68,22 @@ filetype plugin indent on
 let g:AutoPairsShortcutToggle = '<C-P>'
 
 
+
+" ------------------------------------------------------------
+" code folding configuration
+" ------------------------------------------------------------
+" Use the marker method of folding.
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+" More Vimscripts code goes here.
+
+" }}}
+
+
+
 " ------------------------------------------------------------
 " NERDTree configuration
 " ------------------------------------------------------------
