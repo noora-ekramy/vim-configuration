@@ -149,6 +149,8 @@ set expandtab           " Use spaces when tabbing
 set cursorline          " Highlight cursor line underneath the cursor horizontally.
 set nowrap              " Do not wrap lines. Allow long lines to extend as far as the line goes.
 set showcmd             " Show partial command you type in the last line of the screen.
+set showmatch           " Show matching words during a search.
+set hlsearch            " Use highlighting when doing a search.
 
 if !has('nvim')
     set termwinsize=12x0    " Set terminal size
