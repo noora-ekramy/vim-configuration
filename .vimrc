@@ -17,6 +17,9 @@ filetype indent on
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
+" Turn syntax highlighting on.
+syntax on
+
 " Plugins will be downloaded under the specified directory.
 call vundle#begin('~/.vim/plugged')
 
