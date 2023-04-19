@@ -151,6 +151,13 @@ set nowrap              " Do not wrap lines. Allow long lines to extend as far a
 set showcmd             " Show partial command you type in the last line of the screen.
 set showmatch           " Show matching words during a search.
 set hlsearch            " Use highlighting when doing a search.
+set wildmenu            " Enable auto completion menu after pressing TAB.
+set wildmode=list:longest  " Make wildmenu behave like similar to Bash completion.
+
+" There are certain files that we would never want to edit with Vim.
+" Wildmenu will ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
 
 if !has('nvim')
     set termwinsize=12x0    " Set terminal size
