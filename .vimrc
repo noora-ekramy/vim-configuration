@@ -148,6 +148,8 @@ set shiftwidth=4        " How many columns of whitespace a “level of indentati
 set expandtab           " Use spaces when tabbing
 set cursorline          " Highlight cursor line underneath the cursor horizontally.
 set nowrap              " Do not wrap lines. Allow long lines to extend as far as the line goes.
+set showcmd             " Show partial command you type in the last line of the screen.
+
 if !has('nvim')
     set termwinsize=12x0    " Set terminal size
 endif
