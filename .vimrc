@@ -140,7 +140,7 @@ if !has('nvim')
 endif
 
 set background=dark     " Set background 
-colorscheme scheakur    " Set color scheme
+colorscheme molokai    " Set color scheme
 
 
 " ------------------------------------------------------------
