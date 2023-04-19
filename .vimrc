@@ -146,7 +146,7 @@ set mouse=a             " Enable mouse drag on window splits
 set tabstop=4           " How many columns of whitespace a \t is worth
 set shiftwidth=4        " How many columns of whitespace a “level of indentation” is worth
 set expandtab           " Use spaces when tabbing
-
+set cursorline          " Highlight cursor line underneath the cursor horizontally.
 if !has('nvim')
     set termwinsize=12x0    " Set terminal size
 endif
